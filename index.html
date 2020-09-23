@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title = "author" content="Kevin Murray" 
+    <title>Pizza Website</title>
+</head>
+<body>
+        <form action = "" method = "POST"></form>
+        <fieldset>
+            <!-- input boxes -->
+            <legend>User Information</legend>               
+                    
+            <label for = "username">Username:</label>
+            <input type = "text" id = "username" name = "user.name"><br>
+                        
+            <label for = "password">Password:</label>
+            <input type = "password" id = "password" name = "user.password">     
+            
+        </fieldset>
+
+        <fieldset>
+            <!-- Radio Buttons -->
+            <legend>what drink do you want?</legend>
+                <input type="radio" id="coke" name="drink" value="drink.coke">
+                <label for="coke">Coke</label><br>
+
+                <input type="radio" id="dietCoke" name="drink" value="drink.DietCoke">
+                <label for="dietCoke">Diet Coke</label><br>
+
+                <input type="radio" id="sprite" name="drink" value="drink.sprite">
+                <label for="sprite">Sprite</label><br>
+
+                <input type="radio" id="water" name="drink" value="drink.water">
+                <label for="water">Water</label>
+        </fieldset>
+
+        <fieldset>
+            <!-- Checkboxes -->
+            <legend>Pizza Preference</legend>
+            <input type="checkbox" id="plain" name="topping" value="topping.plain">
+            <label for="plain">Plain</label><br>
+            
+            <input type="checkbox" id="Pepperoni" name="topping" value="topping.pepperoni">
+            <label for="Pepperoni">Pepperoni</label><br>
+
+            <input type="checkbox" id="Chicken" name="topping" value="topping.chicken">
+            <label for="Chicken">Chicken</label><br>
+
+            <input type="checkbox" id="sausage" name="topping" value="topping.sausage">
+            <label for="sausage">Sausage</label><br>
+        </fieldset>
+
+        <fieldset>
+            <!-- Text area -->
+            <legend>Special Instructions</legend>
+            <label for = "Instructions">Special Instructions:</label><br>
+            <textarea name = "user.comment" id = "Instructions" cols = 30 rows = 10></textarea><br>
+            <!-- Submit Button -->
+            <button type = "submit">Submit</button>
+        </fieldset>
+</body>
+</html>
